@@ -1,7 +1,8 @@
+*in pursuit of a computing forever home...*
+
 # My NixOS config. 
 
 To set up on a new machine. 
-
 
 ```
 git clone ${this_repo} ~/nixos-config
