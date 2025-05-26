@@ -1,4 +1,4 @@
-*in pursuit of a computing forever home...*
+*in pursuit of a virtual forever home...*
 
 # My NixOS config. 
 
@@ -12,6 +12,8 @@ sudo ln -s ~/nixos-config/etc/nixos
 
 sudo nixos-rebuild switch
 ```
+
+*kept public for educational purposes*
 
 
 [Inspired by the NixOS beginner's guide](https://nixos-and-flakes.thiscute.world/nixos-with-flakes/other-useful-tips)
