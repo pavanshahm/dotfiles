@@ -6,11 +6,14 @@ To set up on a new machine.
 
 ```
 git clone ${this_repo} ~/nixos-config
-sudo ln -s ~/nixos-config/etc/nixos
+# make a backup of the default config
+sudo mv /etc/nixos /etc/nixos.bak
+sudo ln -s ~/nixos-config /etc/nixos
 
 # TODO: hardware specific adjustments here
-
-sudo nixos-rebuild switch
+# TODO: deal with hardware configuration in a more 
+# TODO: elegant way so we don't have to use --impure
+sudo nixos-rebuild switch --impure
 ```
 
 *kept public for educational purposes*
