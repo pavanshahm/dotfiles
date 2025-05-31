@@ -5,7 +5,7 @@
 To set up on a new machine. 
 
 ```
-git clone ${this_repo} ~/nixos-config
+git clone ${this_repo} ~/dotfiles
 # make a backup of the default config
 sudo mv /etc/nixos /etc/nixos.bak
 sudo ln -s ~/nixos-config /etc/nixos
@@ -14,6 +14,14 @@ sudo ln -s ~/nixos-config /etc/nixos
 # TODO: deal with hardware configuration in a more 
 # TODO: elegant way so we don't have to use --impure
 sudo nixos-rebuild switch --impure
+
+# setup stow #TODO look into home-manager 
+cd ~/dotfiles
+stow .
+
+# install doom-emacs
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
 ```
 
 *kept public for educational purposes*
