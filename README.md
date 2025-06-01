@@ -8,7 +8,7 @@ To set up on a new machine.
 git clone ${this_repo} ~/dotfiles
 # make a backup of the default config
 sudo mv /etc/nixos /etc/nixos.bak
-sudo ln -s ~/nixos-config /etc/nixos
+sudo ln -s ~/dotfiles /etc/nixos
 
 # TODO: hardware specific adjustments here
 # TODO: deal with hardware configuration in a more 

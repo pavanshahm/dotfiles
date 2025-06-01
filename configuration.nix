@@ -11,7 +11,8 @@
     ];
 
   # Bootloader.
-  boot.loader.grub.enable = true;
+  # TODO: learn what grub means, and figure out how i can be resilient to it.
+  boot.loader.grub.enable = false;
   boot.loader.grub.device = "/dev/sda";
   boot.loader.grub.useOSProber = true;
 
