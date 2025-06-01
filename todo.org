@@ -1,0 +1,11 @@
+#+title: Todo
+* TODO understand boot stuff
+** grub
+** secureboot
+** bootloaders
+* PROJ Integrated Developer Environment
+** TODO Setup devenv for python development
+*** TODO Setup direnv
+*** TODO uv integration
+*** WAIT ty integration
+** WAIT Integration dev env with emacs runtime
